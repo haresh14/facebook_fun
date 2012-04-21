@@ -22,10 +22,11 @@ public class PlaySound {
 	
 /** Called when the activity is first created. */
 
-	public PlaySound(Context context, Activity activity, int path) {
+	public PlaySound(Context context, Activity activity, String path) {
 		baseContext = context;
 		baseActivity = activity;
 		// Set the hardware buttons to control the music
+		Log.e("Test", "PLaySOund Start");
 		activity.setVolumeControlStream(AudioManager.STREAM_MUSIC);
 		// Load the sound
 		soundPool = new SoundPool(10, AudioManager.STREAM_MUSIC, 0);
@@ -34,14 +35,15 @@ public class PlaySound {
 			public void onLoadComplete(SoundPool soundPool, int sampleId,
 					int status) {
 				loaded = true;
+				Log.e("Test", "loaded = true");
 			}
 		});
-//		soundID = soundPool.load(this, 0, 1);
-
+		soundID = soundPool.load(baseActivity,R.raw.collision, 1);
 	}
 
 	public boolean Play() {
 			// Getting the user sound settings
+		Log.e("Test", "Played sound");
 			AudioManager audioManager = (AudioManager) baseActivity.getSystemService(Context.AUDIO_SERVICE);
 			float actualVolume = (float) audioManager
 					.getStreamVolume(AudioManager.STREAM_MUSIC);

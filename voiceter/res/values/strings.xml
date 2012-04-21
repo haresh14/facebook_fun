@@ -3,5 +3,6 @@
 
     <string name="hello">Hello World!</string>
     <string name="app_name">Voiceter</string>
+    <string name="path">/mnt/sdcard/voiceter/voice1	</string>
 
 </resources>
