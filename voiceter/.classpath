@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/sup"/>
 	<classpathentry kind="lib" path="C:/Users/Alex/Downloads/commons-net-3.1-bin/commons-net-3.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Alex/Downloads/commons-net-3.1-bin/commons-net-3.1-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Alex/Downloads/commons-net-3.1-bin/commons-net-examples-3.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Alex/Downloads/appengine-java-sdk-1.6.4.1/lib/appengine-remote-api.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Alex/Downloads/appengine-java-sdk-1.6.4.1/lib/appengine-tools-api.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

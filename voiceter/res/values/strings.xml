@@ -2,7 +2,8 @@
 <resources>
 
     <string name="hello">Hello World!</string>
-    <string name="app_name">Voiceter</string>
+    <string name="app_name">DOU Remore Control</string>
     <string name="path">/mnt/sdcard/voiceter/voice1	</string>
+    <string name="hello">Choose Action</string>
 
 </resources>

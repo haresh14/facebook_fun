@@ -24,7 +24,13 @@
          
         </activity>
 	<activity 
-	    android:name=".UserList"></activity>
+	    android:name=".MyList"></activity>
+	<activity 
+	    android:name=".CreateVoiceter"></activity>
+	<activity 
+	    android:name=".SearchActivity"></activity>
+	<activity 
+	    android:name=".SearchResoults"></activity>
 </application>
 
 </manifest>

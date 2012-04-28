@@ -37,9 +37,7 @@ public class MainVoiceterActivity extends SherlockActivity  {
 		recorder.stop();
 	}
 	public void playRec(View V){
-//		startActivity(new Intent(this,Tutorial3.class));
-//		playSound = new PlaySound(getApplicationContext(), this, PATH);
-//		playSound.Play();
+		mSoundManager.playSound(1);
 
 }
 }

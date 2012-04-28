@@ -1,0 +1,3 @@
+Troush\n
+qwerty\n
+^Z
